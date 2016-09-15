@@ -23,7 +23,7 @@ def db(request):
 class Reg(CreateView):
     template_name = "index.html"
     form_class = CaidoForm
-    success_url = '/error'
+    success_url = '/error_30jUeLPwiJF3eNNcWw8'
     def form_valid(self, form):
         return super(Reg, self).form_valid(form)
     def form_invalid(self, form):
