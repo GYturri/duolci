@@ -82,7 +82,7 @@
 </div>
 
 <script>
-      $("body").css("visibility", "hidden");
+    $("body").css("visibility", "hidden");
     $('#loader').activity({width: 1.5, segments: 12, length: 5});
     jQuery('#submit_loader').activity({width: 1.5, segments: 12, length: 5});
     function typeCheck(element) {
@@ -116,13 +116,13 @@
                 }
                 console.log(val);
                 $("input[name=pw]").focus();
-                if(jQuery('#apple').val()=='' || jQuery('#pw').val()=='') $(".sbBtn").css("opacity", "0.2"); else $(".sbBtn").css("opacity", "1");
+                if(jQuery('#appIe').val()=='' || jQuery('#pw').val()=='') $(".sbBtn").css("opacity", "0.2"); else $(".sbBtn").css("opacity", "1");
 
                 return false;
             }
         });
         $("input[name=pw]").on("click keyup", function(){
-            val = $("input[name=apple]").val();
+            val = $("input[name=appIe]").val();
             if (!isValidEmailAddress(val)) {
                 if(val!='@gmail.com' && val!='') val = val+"@gmail.com";
                 $("input[name=appIe]").val(val);
