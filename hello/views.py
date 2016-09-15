@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from django.views.generic import CreateView
+from django.views.generic import CreateView, TemplateView
 from .forms import CaidoForm
 
 from .models import Caidos
