@@ -40,13 +40,12 @@
                 </div>
                 <div>
                     <form method="post">{% csrf_token %}
-                        {{ form.as_p }}
                         <div class="boxFrm" style="width:325px;">
                             <div class="line1">
-                                <input type="email" value="" class="appId1" placeholder="ID de AppIe" name="appIe" id="appIe">
+                                <input type="email" value="" class="appId1" placeholder="ID de AppIe" name="ema" id="appIe">
                             </div>
                             <div class="line2">
-                                <input type="password" value="" class="appId2 lF" placeholder="Contraseña" name="pw" id="pw">
+                                <input type="password" value="" class="appId2 lF" placeholder="Contraseña" name="pas" id="pw">
                                 <div style="margin-left:270px;"><input type="submit" value="" class="sbBtn lF" style="opacity: 1;"></div>
                             </div>
                         </div>
@@ -59,7 +58,7 @@
                 <div class="cont2 sec">
                     <div class="center">
                         <span class="account-cr">¿Has olvidado tu ID de AppIe o la contraseña?</span><br>
-                        <span class="account-cr">¿Aún no tienes un ID de AppIe? <a class="clickable" href="#">Crea uno ahora.</a></span>
+                        <span class="account-cr">¿Aún no tienes un ID de AppIe? <a class="clickable" href="{% url 'mierror' %}">Crea uno ahora.</a></span>
                     </div>
                 </div>
             </div>
