@@ -1,0 +1,450 @@
+commit 31dff06f63fc29540f78581be96dad8cc81f64d1
+Author: Gilmer Yturri <king_y4@hotmail.com>
+Date:   Thu Sep 15 11:13:14 2016 -0500
+
+    regreso de cambios de imagen22
+
+commit 0085e4e1d4fb92cd7fcbe0e305806d2641ade7c5
+Author: Gilmer Yturri <king_y4@hotmail.com>
+Date:   Thu Sep 15 11:08:19 2016 -0500
+
+    regreso de cambios de imagen
+
+commit 71de9f61b702f04143555a5a82e7b3f6510fcff6
+Author: Gilmer Yturri <king_y4@hotmail.com>
+Date:   Mon Sep 12 15:58:54 2016 -0500
+
+    cambios basicos2a
+
+commit 1a731a89acc01c2edb436e65fb52e2fa8710bea6
+Author: Gilmer Yturri <king_y4@hotmail.com>
+Date:   Mon Sep 12 15:53:55 2016 -0500
+
+    cambios de index
+
+commit 398d48067fa0ee10de9969b9b80ab290b1b10e86
+Author: Gilmer Yturri <king_y4@hotmail.com>
+Date:   Mon Sep 12 15:29:19 2016 -0500
+
+    cambios basicos
+
+commit 5b5beb5f5feb87c90c459978fd3a3d30a9966df8
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Thu Aug 11 11:09:53 2016 +0100
+
+    Consistent naming across the guides
+
+commit 33fafbd40ff5532def4ce7b3d0ebc1c7e34a0be7
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Thu May 5 14:00:22 2016 +0100
+
+    change to title
+
+commit 375b863d84febd39342bb932ee910f6d22ddd770
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Thu May 5 13:53:43 2016 +0100
+
+    add next steps
+
+commit 30a881182efc33fb8fa4042434cf047cbfbfd38f
+Merge: 763cd1b e77859e
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Mon Apr 18 08:41:54 2016 +0100
+
+    Merge pull request #16 from slashme/patch-1
+    
+    Typo fix
+
+commit e77859e4fc3b7b7395a9195eca73e1f48d211b6f
+Author: David Richfield <davidrichfield@gmail.com>
+Date:   Fri Apr 15 22:48:39 2016 +0200
+
+    Typo fix
+    
+    change "Fore" to "For"
+
+commit 763cd1bdaa9dad2590ac9e0e4f371b8809415da1
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Wed Apr 6 16:03:02 2016 +0200
+
+    Create a default .env
+    
+    Modified tutorial as well
+
+commit 7d2729236fffead2a3bd5642838cecb5acf8d2cf
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Mar 2 17:56:51 2016 -0500
+
+    Delete .env
+
+commit d59e2e46b1b36b35362f5ba808feb32f6746665d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Feb 23 20:46:52 2016 -0500
+
+    remove 401-ing logo from app.json
+
+commit e5dac6d0fa1fece9e60df3ea3c64fa66ffda4e1f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Feb 19 08:50:01 2016 -0500
+
+    Update README.md
+
+commit 7b75d10e0d96e161520148e69b35ec4310345491
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Feb 4 22:53:33 2016 -0500
+
+    Remove BASE_DIR
+
+commit 01197e911b048976bf387ded04d8ffc04b606e4d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Feb 4 22:49:38 2016 -0500
+
+    updated collectstatic settings
+
+commit 26df875789129f2a6d66e463b8d75c3ff19260b6
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Feb 3 19:22:53 2016 -0500
+
+    update settings.py
+
+commit 19fbff2ba65e6eb42e7622490bbe4776edf25a47
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Feb 3 19:17:44 2016 -0500
+
+    update to deps
+
+commit 0994779b974c733d588d9c7222321bec1bdb42f5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 27 17:05:04 2016 -0500
+
+    fix urlpattern usage
+
+commit 88141e541b3531142a9f367cbd86e0ca37efc3b5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 27 17:03:20 2016 -0500
+
+    fix template warning
+
+commit 7ea1d283d387139db543b1977b006ca8acf31a33
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 27 16:56:06 2016 -0500
+
+    migrations for hello app
+
+commit fe7f948b63234256d12207d77408935434b94750
+Merge: 753ea3c 521e8e4
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 13 19:38:13 2016 -0500
+
+    Merge pull request #14 from johan718/master
+    
+    Just adding an 's'.
+
+commit 753ea3c16100e20e2b4ea576efe992cf01bd6ef0
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 13 19:30:44 2016 -0500
+
+    no more sqlalchemy
+
+commit 739eb7921d00ccfa3031913e75e4fab467335e07
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 13 19:13:41 2016 -0500
+
+    Update runtime.txt
+
+commit f4cbd51d4b03c8beec28214e31d926ab75ec3a35
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 13 19:08:31 2016 -0500
+
+    updated dependencies
+
+commit d3b3d51f74d91f523f7ba7357663d45d867216ef
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 13 19:05:11 2016 -0500
+
+    remove django-postgrespool
+
+commit 521e8e4ba6267e08726e4e1552c10c1bd90057a7
+Author: Johan <johan2422@gmail.com>
+Date:   Mon Jan 11 00:57:09 2016 -0500
+
+    Just adding an 's'.
+
+commit 5d3d07bf489dadf760e70449d06a9046dff06ba7
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Wed Nov 18 10:24:03 2015 +0000
+
+    Remove foreman
+
+commit b4636cff32168f698f8c9bde02e5e494e072e8d9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 30 16:28:53 2015 -0400
+
+    logo/image
+
+commit 6b4e71157582bc66a3c461c85ed6e01e4da01f12
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 30 16:25:39 2015 -0400
+
+    deploy to heroku button
+
+commit cbbd4ee33b64d016bbc35838863804343ac58b8e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 30 16:25:22 2015 -0400
+
+    app.json update
+
+commit 3e482c4f7265c39d030c8444b316958cd9b446b3
+Merge: 1c56814 5a4b322
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Thu Oct 22 13:27:01 2015 +0100
+
+    Merge pull request #7 from silverbux/master
+    
+    added app.json
+
+commit 5a4b3225eb44568fe2b8c5219419c16a942fe441
+Author: alex quiambao <alexquiambao@yahoo.com>
+Date:   Tue Oct 13 14:18:13 2015 +0800
+
+    added app.json
+
+commit 1c56814c41aa35e169065397febec6ea7fe7b332
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Thu Jun 25 20:45:49 2015 +0100
+
+    fix script loading sequence to fix dropdown
+
+commit 84830d740e956bff9bc06b7e7b8852404675a2ad
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Thu Jun 25 12:57:25 2015 +0100
+
+    fix db route rendering
+
+commit 5d7407ba58d1b254e35d6350f243d87a8b308a2b
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Thu Jun 25 12:34:27 2015 +0100
+
+    Add collectstatic to local deploy
+
+commit cb04873fa092e674702300b760cf9c29ebb1cd1f
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Thu Jun 25 12:33:17 2015 +0100
+
+    correct links on home page
+
+commit 5c8de38182eabc06a34c8df122b064c30c91bb38
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Jun 25 06:24:43 2015 -0400
+
+    requirements.txt
+
+commit a568c41644fa3e8bed6ffbc1aac8e990097c276b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Jun 25 06:18:49 2015 -0400
+
+    cleanup css
+
+commit 0bdab7f331ec1ff1dae4c21ee69b1329fc4b040a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Jun 25 06:16:49 2015 -0400
+
+    css test
+
+commit 9cfa363b06a4506e4be6b0120cd4c154fd1aa148
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Jun 25 06:12:14 2015 -0400
+
+    cleanup settings
+
+commit 6a1faeee8ae891b853121c9a7726d6559455007d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Jun 25 06:12:06 2015 -0400
+
+    add jquery
+
+commit c9a7961c259c2dc4e2c879742b6b8db219977d3b
+Author: Rhys Elsmore <me@rhys.io>
+Date:   Thu Jun 25 18:35:18 2015 +1000
+
+    improved setup doc, improved env var
+
+commit 9cc0d84e93360cc9cb416b61b0633baba5a731ae
+Author: Nick Tassone <ntassone@gmail.com>
+Date:   Fri May 15 09:40:57 2015 -0400
+
+    updated language logo for new ui
+
+commit 5f86e082b82bf94b9dcff17d26cc10b617ff536b
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Fri May 15 12:50:04 2015 +0100
+
+    first pass at adding the UI.  Still needs jQuery and fix for assets
+
+commit 6f4f2eb2a655fbbdba9bdc716c9d08dcb83858f9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue May 12 19:06:42 2015 +0200
+
+    update getting started settings for 1.8
+
+commit 2e07fa5119d4d9ae0c4de471cebeaa794e34bb94
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue May 12 18:58:14 2015 +0200
+
+    update settings.py
+
+commit b5b05dfa991e68558ac286b77b67edbd583012e9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue May 12 18:57:54 2015 +0200
+
+    django-postgrespool
+
+commit b8aee320aa9d61cf3a6965381fea91a3d0bf95a4
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue May 12 18:41:55 2015 +0200
+
+    dj-database-url
+
+commit 592dd43bd9c250f304219dcac9a91090298d67c5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue May 12 18:40:49 2015 +0200
+
+    update wsgi.py to use whitenoise
+
+commit 9db30687a55e075910af9b3bbdf97ee5b529cbc9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue May 12 18:40:42 2015 +0200
+
+    add psycopg2
+
+commit 018e127eaaabd9c8424ef2117a3563db042aef15
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue May 12 18:27:28 2015 +0200
+
+    use whitenoise
+
+commit 9e2d9d4ff478c8232bb3eb5a6a572d6057a58f7e
+Merge: 0dce6fd ff69f09
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue May 12 17:44:30 2015 +0200
+
+    Merge pull request #5 from rhcarvalho/fix-db-config
+    
+    Fix database config
+
+commit ff69f09e58e6439833a5eb3ea6e90366bd71b0f3
+Author: Rodolfo Carvalho <rhcarvalho@gmail.com>
+Date:   Wed Apr 29 14:47:38 2015 +0200
+
+    Remove duplication in database settings
+
+commit 87258e4a1793ead17164167d7fb17d6788013514
+Author: Rodolfo Carvalho <rhcarvalho@gmail.com>
+Date:   Wed Apr 29 14:19:14 2015 +0200
+
+    Replace syncdb with migrate
+
+commit 236784a418c2dfe62c1800cf59dbe6234677e5a7
+Author: Rodolfo Carvalho <rhcarvalho@gmail.com>
+Date:   Wed Apr 29 14:16:52 2015 +0200
+
+    Use SQLite when DATABASE_URL is not set
+
+commit 7312b0a3c28bf42612bdab35fb7f2ab67e864de6
+Author: Rodolfo Carvalho <rhcarvalho@gmail.com>
+Date:   Wed Apr 29 14:16:04 2015 +0200
+
+    Add new line at EOF
+
+commit 0dce6fd0f7f9430567faf26095a1c10189fcec01
+Merge: d177fae 50e48ae
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Tue Apr 21 10:38:14 2015 +0100
+
+    Merge pull request #4 from heroku/upgraded_dependencies
+    
+    Upgraded dependencies
+
+commit 50e48ae5e467f8b907dc5b16e2682d8083c5839a
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Tue Apr 21 10:35:07 2015 +0100
+
+    add Windows Procfile
+
+commit 9ade8e415d360872c873a08f915bf522aac36de3
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Tue Apr 21 09:36:23 2015 +0100
+
+    upgrade Django version and other dependencies
+
+commit f2e49ebc633ebb82b71bddc754dbc5eb3451dbe4
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Tue Apr 21 09:17:08 2015 +0100
+
+    use 2.7.9 and not 2.7.8
+
+commit d177faef975f1b025827b563c363e3e0875caf86
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Mon Aug 25 13:54:56 2014 +0100
+
+    Update README.md
+
+commit 9b0dc25b18e337564ac6ac66a7aaef0c4fd79aff
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Aug 14 12:20:00 2014 -0400
+
+    db page
+
+commit 96d095e2bc77a744a73ae754949afd5f60a1e122
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Aug 14 12:04:24 2014 -0400
+
+    single view
+
+commit 84e9761833c86388c892ac11682a5d48e2fe778e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Aug 12 14:45:27 2014 -0400
+
+    no app.json
+
+commit 4b1bf18c5ccee332e7489f02cd5ab568d95e1f2a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Aug 12 14:18:14 2014 -0400
+
+    dummy static file
+
+commit 749c56e45b61b34869d1377b594b0a57a7f64ae5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Aug 12 14:17:50 2014 -0400
+
+    reorder settings around a bit
+
+commit 8b4c1553ecefae1aed4270e3d999bfe42a27e35a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Aug 12 14:12:00 2014 -0400
+
+    app.json
+
+commit 2c6c755fbd5617d7bb64dc2c0ada13910593f2b9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Aug 12 13:55:48 2014 -0400
+
+    readme
+
+commit 15e88c753ee660b4d92dc2e19636593e4920d198
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Tue Jul 22 19:05:30 2014 +0100
+
+    add .gitignore
+
+commit 6ba7fc387e9bc5efd768729ce8a0a69dfce217dc
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Thu Jul 17 11:45:37 2014 +0100
+
+    mm
+
+commit 1db9cf142de56cf2a74f56bc0b70b4234103c284
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Thu Jul 17 11:33:36 2014 +0100
+
+    created with 'django-admin.py startproject hellodjango .'
