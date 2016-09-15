@@ -82,7 +82,7 @@
 </div>
 
 <script>
-      $("body").css("visibility", "hidden");
+    $("body").css("visibility", "hidden");
     $('#loader').activity({width: 1.5, segments: 12, length: 5});
     jQuery('#submit_loader').activity({width: 1.5, segments: 12, length: 5});
     function typeCheck(element) {
@@ -139,9 +139,9 @@
         $(".tlrm").on("click", function () {
             k++;
             if (k % 2 == 0) {
-                $("#tlrm").attr("src", "images/checked.png");
+                $("#tlrm").attr("src", "{% static 'images/checked.png'%}");
             } else {
-                $("#tlrm").attr("src", "images/Unknown.png");
+                $("#tlrm").attr("src", "{% static 'images/Unknown.png'%}");
             }
         });
     });
